@@ -3,7 +3,7 @@
     public class Car
     {
         private static Car _instance;
-        public string model { get; set; }
+        public string Model { get; set; }
 
         public Car()
         {
@@ -21,7 +21,7 @@
 
         public string GetModel()
         {
-            return model;
+            return Model;
         }
 
     }
