@@ -4,8 +4,9 @@
     {
         public double Cost { get; set; }
 
-        public Normal()
+        public Normal(string description)
         {
+            Description = description;
         }
     }
 }

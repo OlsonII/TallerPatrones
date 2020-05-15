@@ -13,27 +13,27 @@
             ChangeOil = new ChangeOil();
         }
 
-        public int RepairStreetCar(StreetCar car)
+        private int RepairStreetCar(StreetCar car)
         {
             return 1;
         }
 
-        public int RepairRacingCar(RacingCar car)
+        private int RepairRacingCar(RacingCar car)
         {
             return 2;
         }
 
-        public void Repair(Car car)
+        public int Repair(Car car)
         {
             switch (car)
             {
                 case RacingCar racingCar:
-                    RepairRacingCar(racingCar);
-                    break;
+                    return RepairRacingCar(racingCar);
                 case StreetCar streetCar:
-                    RepairStreetCar(streetCar);
-                    break;
+                    return RepairStreetCar(streetCar);
             }
+
+            return 0;
         }
     }
 }

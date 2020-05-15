@@ -18,7 +18,12 @@ namespace Domain.Composite
 
         public string Operation()
         {
-            return "Operacion exitosa";
+            return "Construccion Exitosa";
+        }
+
+        public int GetChildrensCount()
+        {
+            return Childrens.Count;
         }
     }
 }

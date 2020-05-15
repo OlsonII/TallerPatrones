@@ -2,10 +2,12 @@
 {
     public class BuildKeyboard
     {
+        public Color Color { get; set; }
+        public Keyboard Keyboard { get; set; }
         public BuildKeyboard(KeyboardAbstractFactory factory)
         {
-            Color color = factory.CreateColor();
-            Keyboard keyboard = factory.CreateKeyboard();
+            Color = factory.CreateColor();
+            Keyboard = factory.CreateKeyboard();
         }
     }
 }

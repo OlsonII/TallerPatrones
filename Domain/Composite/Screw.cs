@@ -4,7 +4,7 @@
     {
         public string Operation()
         {
-            throw new System.NotImplementedException();
+            return "Tornillo 4f";
         }
     }
 }

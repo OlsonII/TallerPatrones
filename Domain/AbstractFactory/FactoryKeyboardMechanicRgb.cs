@@ -1,15 +1,15 @@
 ﻿namespace Domain.AbstractFactory
 {
-    public class FactoryKeyboardNormalWhite : KeyboardAbstractFactory
+    public class FactoryKeyboardMechanicRgb : KeyboardAbstractFactory
     {
         public override Color CreateColor()
         {
-            return new White();
+            return new Rgb();
         }
 
         public override Keyboard CreateKeyboard()
         {
-            return new Normal("Keyboard Normal");
+            return new Mechanic("Keyboard Mechanic");
         }
     }
 }

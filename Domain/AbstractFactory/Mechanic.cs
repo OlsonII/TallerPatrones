@@ -4,8 +4,9 @@
     {
         public double Cost { get; set; }
 
-        public Mechanic()
+        public Mechanic(string description)
         {
+            Description = description;
         }
     }
 }

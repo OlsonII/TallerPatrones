@@ -2,10 +2,15 @@
 {
     public class BigSoldier : Toy
     {
-        public const double Heigth = 20;
+        private const int Heigth = 20;
 
         public BigSoldier()
         {
+        }
+        
+        public int GetHeight()
+        {
+            return Heigth;
         }
     }
 }

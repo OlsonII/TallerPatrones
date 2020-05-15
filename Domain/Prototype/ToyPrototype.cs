@@ -6,7 +6,7 @@ namespace Domain.Prototype
     {
         private readonly Dictionary<string, Toy> _prototypes = new Dictionary<string, Toy>();
 
-        ToyPrototype()
+        public ToyPrototype()
         {
             var bigSoldierRed = new BigSoldier() {Name = "Red Big Soldier", Color = "Red"};
             var bigSoldierBlue = new BigSoldier() {Name = "Blue Big Soldier", Color = "Blue"};

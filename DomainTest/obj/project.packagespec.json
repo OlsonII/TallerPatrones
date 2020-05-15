@@ -14,7 +14,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\NILSO\\RiderProjects\\TallerPatrones\\Domain\\Domain.csproj": {
+            "projectPath": "C:\\Users\\NILSO\\RiderProjects\\TallerPatrones\\Domain\\Domain.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

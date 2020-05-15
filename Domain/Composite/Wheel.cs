@@ -18,7 +18,7 @@ namespace Domain.Composite
 
         public string Operation()
         {
-            return "Operacion exitosa";
+            return "Llanta michellin R17";
         }
     }
 }
