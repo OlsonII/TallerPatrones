@@ -5,7 +5,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Facade" />
       <Folder Include="Factory" />
       <Folder Include="Singleton" />
     </ItemGroup>

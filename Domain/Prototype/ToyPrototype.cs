@@ -10,8 +10,8 @@ namespace Domain.Prototype
         {
             var bigSoldierRed = new BigSoldier() {Name = "Red Big Soldier", Color = "Red"};
             var bigSoldierBlue = new BigSoldier() {Name = "Blue Big Soldier", Color = "Blue"};
-            var lowSoldierRed = new BigSoldier() {Name = "Red Low Soldier", Color = "Red"};
-            var lowSoldierBlue = new BigSoldier() {Name = "Blue Low Soldier", Color = "Red"};
+            var lowSoldierRed = new LowSoldier() {Name = "Red Low Soldier", Color = "Red"};
+            var lowSoldierBlue = new LowSoldier() {Name = "Blue Low Soldier", Color = "Red"};
             
             _prototypes.Add("BigSoldierBlue", bigSoldierBlue);
             _prototypes.Add("BigSoldierRed", bigSoldierRed);

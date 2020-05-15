@@ -1,6 +1,6 @@
 ﻿namespace Domain.Prototype
 {
-    public class LowSoldier
+    public class LowSoldier : Toy
     {
         public const double Heigth = 20;
 
